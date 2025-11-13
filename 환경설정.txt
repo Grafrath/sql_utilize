@@ -1,0 +1,14 @@
+환경 변수에 mySQL 패스 추가
+
+cmd에서 testdb 경로 잡은후 msysql 실행후
+
+use employees
+
+SOURCE load_departments.dump;
+SOURCE load_employees.dump;
+SOURCE load_dept_emp.dump;
+SOURCE load_dept_manager.dump;
+SOURCE load_titles.dump;
+SOURCE load_salaries1.dump;
+SOURCE load_salaries2.dump;
+SOURCE load_salaries3.dump;
