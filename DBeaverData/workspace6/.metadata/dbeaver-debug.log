@@ -90,3 +90,12 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 2025-11-13 16:57:54.261 - Connected (mysql8-19a763bc3ad-42b246d73a3ffce1, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
 2025-11-13 16:57:54.294 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 2)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.61.202511021717]
+> Start DBeaver UI Editors - Entity [org.jkiss.dbeaver.ui.editors.entity 1.0.166.202511021717]
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.150.202511021717]
+2025-11-13 17:11:23.484 - Execution context closed (localhost, 2)
+2025-11-13 17:11:32.468 - Execution context opened (localhost; SQLEditor <Script-2.sql>; 3)
+2025-11-13 18:19:53.686 - Execution context closed (localhost, 3)
+2025-11-13 18:19:53.769 - Dispose navigator model
+2025-11-13 18:19:53.785 - DBeaver is stopping
+2025-11-13 18:19:53.786 - Stop instance server
+2025-11-13 18:19:54.798 - DBeaver shutdown completed
