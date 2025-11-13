@@ -52,3 +52,7 @@ CREATE TABLE orders (
     	FOREIGN KEY (id) REFERENCES member(id)
 );
 
+use employees;
+use academy_db;
+
+use employees;

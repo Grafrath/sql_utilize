@@ -12,3 +12,5 @@ SOURCE load_titles.dump;
 SOURCE load_salaries1.dump;
 SOURCE load_salaries2.dump;
 SOURCE load_salaries3.dump;
+
+SOURCE load~.dump; ->데이터 집어넣는 명령어
