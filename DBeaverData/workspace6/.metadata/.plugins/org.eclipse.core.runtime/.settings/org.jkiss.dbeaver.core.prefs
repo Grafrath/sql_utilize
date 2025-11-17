@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-org.jkiss.dbeaver.core.confirm.exit=always
+sample.database.canceled=true
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1763339952480
+ui.auto.update.check.time=1763340154605
