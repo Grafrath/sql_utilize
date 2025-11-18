@@ -7,7 +7,6 @@
 				<file id="com.google.protobuf:protobuf-java:3.21.9" version="3.21.9" path="${home}\Desktop\SQL_utilize\sql_utilize\DBeaverData\drivers\maven\maven-central\com.google.protobuf\protobuf-java-3.21.9.jar"/>
 			</library>
 			<library type="license" path="licenses/external/gnu3.txt" custom="false"/>
-			<parameter name="cache-meta-data" value="true"/>
 		</driver>
 	</provider>
 </drivers>

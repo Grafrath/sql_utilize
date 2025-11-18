@@ -1,18 +1,42 @@
 {
 	"folders": {},
 	"connections": {
-		"dbeaver-sample-database-sqlite-1": {
-			"provider": "sqlite",
-			"driver": "sqlite_jdbc",
-			"name": "DBeaver Sample Database (SQLite)",
+		"mysql8-19a8f4e1500-893f1b5602c29dd": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
 			"save-password": true,
-			"show-system-objects": true,
 			"configuration": {
-				"database": "C:\\Users\\admin\\AppData\\Roaming\\DBeaverData\\workspace6\\.metadata\\sample-database-sqlite-1\\Chinook.db",
-				"url": "jdbc:sqlite:C:\\Users\\admin\\AppData\\Roaming\\DBeaverData\\workspace6\\.metadata\\sample-database-sqlite-1\\Chinook.db",
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
 				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 9.5",
 				"type": "dev",
-				"closeIdleConnection": true
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-19a9497277f-2371b3d27c34e5b8": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 9.5",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
 			}
 		}
 	},
