@@ -351,21 +351,7 @@ FROM v_emp_dept_current d
 JOIN v_emp_salary_current s ON d.emp_no = s.emp_no;
 
 -- 부서명이 'Development'인 사원의 사번, 이름, 급여를 조회
-SELECT 사번, 이름, 급여, 부서명
+SELECT emp_no, first_name, salary
 FROM v_emp_dept_salary
-WHERE 부서명 = 'Development';
-
--- 현재 기준 부서별 사원 수를 집계하는 뷰
--- 사용 테이블은 dept_emp, departments
--- 뷰 이름은 v_dept_emp_count로 한다
-CREATE VIEW v_dept_emp_count as
-SELECT d.dept_no AS 부서번호, de.dept_name AS 부서명, COUNT(*) AS 사원수 FROM dept_emp d
-JOIN departments de ON d.dept_no = de.dept_no
-WHERE d.to_date = '9999-01-01'
-GROUP BY d.dept_no, de.dept_name;
-
--- 이 뷰를 이용해 사원 수가 200명 이상인 부서만 부서명, 인원 수를 조회하고, 인원 수 내림차순으로 정렬하는 SELECT를 작성
-SELECT 부서명, 사원수
-FROM v_dept_emp_count
-WHERE 사원수 >= 20000;
+WHERE dept_name >= 'Development';
 

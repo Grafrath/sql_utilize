@@ -367,5 +367,4 @@ GROUP BY d.dept_no, de.dept_name;
 -- 이 뷰를 이용해 사원 수가 200명 이상인 부서만 부서명, 인원 수를 조회하고, 인원 수 내림차순으로 정렬하는 SELECT를 작성
 SELECT 부서명, 사원수
 FROM v_dept_emp_count
-WHERE 사원수 >= 20000;
 

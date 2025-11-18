@@ -92,3 +92,98 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 2025-11-18 10:37:16.701 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 2)
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.144.202511021717]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.144.202511021717]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.61.202511021717]
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.150.202511021717]
+2025-11-18 12:58:37.565 - Table 'academy_db.color' not found in metadata catalog
+2025-11-18 12:58:37.566 - Table 'academy_db.size' not found in metadata catalog
+2025-11-18 13:09:12.191 - Error while analyzing query text: INSERT INTO days values
+	(1,'월'),
+	(2,'화'),
+	(3,''),
+	(4,'월'),
+	(5,'월'),
+	(6,'월'),
+	(7,'월')
+java.lang.IllegalStateException: Rows data was not resolved yet
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.getRowsDataContext(SQLQueryRowsSourceModel.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryInsertModel.resolveValueRelations(SQLQueryInsertModel.java:114)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.resolveRelations(SQLQueryModel.java:73)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:154)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:1026)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:605)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:85)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-18 13:13:32.544 - Table 'academy_db.days' not found in metadata catalog
+2025-11-18 13:13:32.544 - Table 'academy_db.days' not found in metadata catalog
+2025-11-18 13:14:49.011 - Table 'academy_db.days' not found in metadata catalog
+2025-11-18 13:14:49.012 - Table 'academy_db.days' not found in metadata catalog
+2025-11-18 13:14:58.041 - Table 'academy_db.time_slots' not found in metadata catalog
+2025-11-18 13:14:58.042 - Table 'academy_db.time_slots' not found in metadata catalog
+2025-11-18 13:16:35.738 - Table 'academy_db.days' not found in metadata catalog
+2025-11-18 13:16:35.738 - Table 'academy_db.time_slots' not found in metadata catalog
+2025-11-18 13:17:36.942 - Table 'academy_db.days' not found in metadata catalog
+2025-11-18 13:17:36.942 - Table 'academy_db.time_slots' not found in metadata catalog
+2025-11-18 13:50:47.386 - Application goes into sleep mode
+2025-11-18 14:09:46.839 - Application wakes
+2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
+2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
+2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
+2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
+2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
+2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
+2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
+2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
+2025-11-18 16:41:50.570 - Table 'employees.v_emp_dept_current' not found in metadata catalog
+2025-11-18 16:41:50.570 - Table 'employees.v_emp_dept_current' not found in metadata catalog
+2025-11-18 16:41:50.570 - Table 'employees.v_emp_dept_current' not found in metadata catalog
+2025-11-18 16:41:50.571 - Table 'employees.v_emp_dept_current' not found in metadata catalog
+2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
+2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
+2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
+2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
+2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
+2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
+2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
+2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
+2025-11-18 17:05:17.787 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:17.787 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:17.787 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:46.477 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:46.478 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:46.478 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:05:46.478 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
+2025-11-18 17:06:20.132 - 'employees.v_dept_manager_current' is not BASE TABLE
+java.sql.SQLException: 'employees.v_dept_manager_current' is not BASE TABLE
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistAction(DBExecUtils.java:358)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractObjectManager.executePersistAction(AbstractObjectManager.java:40)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.executeCommands(AbstractCommandContext.java:198)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.saveChanges(AbstractCommandContext.java:125)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.lambda$1(EntityEditor.java:394)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.saveCommandContext(EntityEditor.java:392)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor$SaveJob.run(EntityEditor.java:1182)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-18 17:17:10.325 - Table 'employees.v_dept_emp_count' not found in metadata catalog
+2025-11-18 17:17:10.326 - Table 'employees.v_dept_emp_count' not found in metadata catalog
+2025-11-18 17:17:20.236 - Table 'employees.v_dept_emp_count' not found in metadata catalog
+2025-11-18 17:17:20.236 - Table 'employees.v_dept_emp_count' not found in metadata catalog
+2025-11-18 17:41:51.254 - Table 'employees.v_dept_emp_count' not found in metadata catalog
+2025-11-18 17:41:51.255 - Table 'employees.v_dept_emp_count' not found in metadata catalog
+2025-11-18 18:21:34.018 - Execution context closed (localhost, 2)
+2025-11-18 18:21:36.585 - Dispose navigator model
+2025-11-18 18:21:36.618 - DBeaver is stopping
+2025-11-18 18:21:36.620 - Stop instance server
+2025-11-18 18:21:37.624 - Instance server has been stopped
+2025-11-18 18:21:37.624 - DBeaver shutdown completed

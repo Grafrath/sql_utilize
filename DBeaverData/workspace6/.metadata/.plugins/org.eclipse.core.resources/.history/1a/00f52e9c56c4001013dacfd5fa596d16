@@ -358,14 +358,12 @@ WHERE 부서명 = 'Development';
 -- 현재 기준 부서별 사원 수를 집계하는 뷰
 -- 사용 테이블은 dept_emp, departments
 -- 뷰 이름은 v_dept_emp_count로 한다
-CREATE VIEW v_dept_emp_count as
-SELECT d.dept_no AS 부서번호, de.dept_name AS 부서명, COUNT(*) AS 사원수 FROM dept_emp d
+CREATE VIEW v_dept_emp_count as -- emp_no  dept_no dept_name
+SELECT d.emp_no, d.dept_no, de.dept_name FROM dept_emp d
 JOIN departments de ON d.dept_no = de.dept_no
-WHERE d.to_date = '9999-01-01'
-GROUP BY d.dept_no, de.dept_name;
+WHERE d.to_date = '9999-01-01';
+
+drop view v_dept_emp_count;
 
 -- 이 뷰를 이용해 사원 수가 200명 이상인 부서만 부서명, 인원 수를 조회하고, 인원 수 내림차순으로 정렬하는 SELECT를 작성
-SELECT 부서명, 사원수
-FROM v_dept_emp_count
-WHERE 사원수 >= 20000;
 
