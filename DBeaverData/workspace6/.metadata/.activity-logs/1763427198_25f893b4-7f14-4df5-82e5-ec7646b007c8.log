@@ -1,0 +1,5 @@
+1364:APP_OPEN:startTime=1763427192552
+2742:GENERAL_SHOW_PERSPECTIVE:perspective=org.jkiss.dbeaver.core.perspective
+2743:GENERAL_VIEW_OPEN:view=org.jkiss.dbeaver.core.databaseNavigator
+2743:GENERAL_VIEW_OPEN:view=org.jkiss.dbeaver.core.projectExplorer
+11282:CONNECTION_OPEN:driver=mysql:mysql8&origin=local
