@@ -1,8 +1,6 @@
-driver.selector.orderBy=score
 eclipse.preferences.version=1
-org.jkiss.dbeaver.core.confirm.drop_sql=always
-org.jkiss.dbeaver.core.confirm.exit=always
+export.scripts.out.dir=C\:\\Users\\admin\\Desktop\\SQL_utilize\\sql_utilize\\DBeaverData\\workspace6\\General\\Scripts
+navigator.sync.editor.datasource=true
 sample.database.canceled=true
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1763426644741
-ui.show.tip.of.the.day.on.startup=false
+ui.auto.update.check.time=1763427195531
