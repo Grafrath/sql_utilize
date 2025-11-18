@@ -128,43 +128,5 @@ CREATE TABLE size (
 
 INSERT INTO size VALUES ('S'), ('M'), ('L');
 
--- 색과 사이즈의 모든조합
--- on을 따로 안써도 된다, 모든행을 무조건 서로 짝짓는다.
 SELECT c.name, s.name FROM color c
 CROSS JOIN size s;
-
-CREATE TABLE days (
-  id int primary key,
-  day_of_week varchar(10)
-);
-
-INSERT INTO days values
-	(1,'월'),
-	(2,'화'),
-	(3,'수'),
-	(4,'목'),
-	(5,'금'),
-	(6,'토'),
-	(7,'일');
-
-CREATE TABLE Time_slots (
-  id int primary key,
-  time TIME
-);
-
-INSERT INTO Time_slots values
-	(1,'09:00'),
-	(2,'10:00'),
-	(3,'11:00'),
-	(4,'12:00'),
-	(5,'13:00'),
-	(6,'14:00'),
-	(7,'15:00');
-
-SELECT * FROM days;
-SELECT * FROM Time_slots;
-
-SELECT d.day_of_week, t.time FROM days d
-CROSS JOIN Time_slots t
-WHERE day_of_week IN ('월', '수', '금');
-

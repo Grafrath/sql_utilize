@@ -164,7 +164,4 @@ INSERT INTO Time_slots values
 SELECT * FROM days;
 SELECT * FROM Time_slots;
 
-SELECT d.day_of_week, t.time FROM days d
-CROSS JOIN Time_slots t
-WHERE day_of_week IN ('월', '수', '금');
 

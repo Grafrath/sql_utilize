@@ -24,11 +24,11 @@ INSERT INTO enroll (id, student_id, class_name) VALUES
 (2, 1, '자바'),
 (3, 2, '데이터베이스');
 
-SELECT * FROM student;
+select * from student;
 
-SELECT * FROM enroll;
+select * from enroll;
 
-SELECT s.name, e.class_name from student s
+select s.name, e.class_name from student s
 inner join enroll e on e.student_id = s.id;
 
 alter table product RENAME product_old;
@@ -64,27 +64,27 @@ INSERT INTO order_list VALUES
 (105, 1, 1, '2025-01-04');
 
 -- 상품이름과 주문수량 조회
-SELECT p.name, SUM(l.quantity) AS total_quantity FROM product p
+select p.name, SUM(l.quantity) AS total_quantity from product p
 JOIN order_list l ON p.id = l.product_id GROUP BY p.name;
 
 -- 주문된 모든 상품의 상품명, 가격, 주문날짜 조회
-SELECT l.order_id, p.name, p.price, l.order_date FROM product p
+select l.order_id, p.name, p.price, l.order_date from product p
 JOIN order_list l ON p.id = l.product_id ORDER BY l.order_id;
 
 -- 상품이름이 노트북인 주문의 주문id, 수량, 날짜 조회
-SELECT l.order_id, l.quantity, l.order_date FROM order_list l
+select l.order_id, l.quantity, l.order_date from order_list l
 JOIN product p ON p.id = l.product_id WHERE p.name = '노트북';
 
 -- 2025-1-2에 주문된 상품들의 상품 이름과 수량 조회
-SELECT p.name, l.quantity FROM order_list l
+select p.name, l.quantity from order_list l
 JOIN product p ON p.id = l.product_id WHERE l.order_date = '2025-01-02';
 
 -- 상품명, 수량, 가격, 주문금액(가격*수량)을 함께 출력
-SELECT p.name, SUM(l.quantity) AS total_quantity, p.price, p.price * SUM(l.quantity) AS order_price
-FROM product p JOIN order_list l ON p.id = l.product_id GROUP BY p.name, p.price;
+select p.name, SUM(l.quantity) AS total_quantity, p.price, p.price * SUM(l.quantity) AS order_price
+from product p JOIN order_list l ON p.id = l.product_id GROUP BY p.name, p.price;
 
 -- 2번이상 주문된적 있는 상품의 상품명과 총 주문횟수 조회
-SELECT p.name, COUNT(l.order_id) AS order_count FROM product p
+select p.name, COUNT(l.order_id) AS order_count from product p
 JOIN order_list l ON p.id = l.product_id
 GROUP BY p.name HAVING COUNT(l.order_id) >= 2;
 
@@ -95,76 +95,7 @@ SELECT s.name, e.class_name FROM student AS s
 LEFT JOIN enroll AS e ON s.id = e.student_id;
 -- 매칭되는 데이터가 없으면 NULL로 채운다
 
--- 상품명과 주문id를 출력하되 주문이 없는 상품도 조회
-SELECT p.name, l.order_id FROM product p
-LEFT JOIN order_list l ON p.id = l.product_id
-ORDER BY p.id;
-
--- 주문이 한번도 없는 상품의 모든 내용 조회
-SELECT p.* FROM product p
-LEFT JOIN order_list l ON p.id = l.product_id
-WHERE l.order_id IS NULL;
-
--- 상품명, 총 주문수량 조회
-SELECT p.name, COALESCE(SUM(l.quantity), 0) AS total_quantity FROM product p
-LEFT JOIN order_list l ON p.id = l.product_id
-GROUP BY p.name;
-
 -- RIGHT OUTER JOIN 왼쪽이 아니라 **오른쪽 테이블을 기준으로 전부 출력**하는 JOIN이다
 SELECT s.name, e.class_name FROM student AS s
 RIGHT JOIN enroll AS e ON s.id = e.student_id;
-
--- CROSS JOIN(곱집합, 데카르트 곱) 조건 없이 모든 조합을 다 만들어 버리는 JOIN이다
-
-CREATE TABLE color (
-  name VARCHAR(20)
-);
-
-INSERT INTO color VALUES ('빨강'), ('파랑');
-
-CREATE TABLE size (
-  name VARCHAR(20)
-);
-
-INSERT INTO size VALUES ('S'), ('M'), ('L');
-
--- 색과 사이즈의 모든조합
--- on을 따로 안써도 된다, 모든행을 무조건 서로 짝짓는다.
-SELECT c.name, s.name FROM color c
-CROSS JOIN size s;
-
-CREATE TABLE days (
-  id int primary key,
-  day_of_week varchar(10)
-);
-
-INSERT INTO days values
-	(1,'월'),
-	(2,'화'),
-	(3,'수'),
-	(4,'목'),
-	(5,'금'),
-	(6,'토'),
-	(7,'일');
-
-CREATE TABLE Time_slots (
-  id int primary key,
-  time TIME
-);
-
-INSERT INTO Time_slots values
-	(1,'09:00'),
-	(2,'10:00'),
-	(3,'11:00'),
-	(4,'12:00'),
-	(5,'13:00'),
-	(6,'14:00'),
-	(7,'15:00');
-
-SELECT * FROM days;
-SELECT * FROM Time_slots;
-
-SELECT d.day_of_week, t.time FROM days d
-CROSS JOIN Time_slots t
-WHERE day_of_week IN ('월', '수', '금');
 

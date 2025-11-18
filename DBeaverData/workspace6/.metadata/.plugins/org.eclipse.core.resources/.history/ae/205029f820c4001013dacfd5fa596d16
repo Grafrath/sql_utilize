@@ -1,0 +1,27 @@
+use academy_db;
+
+-- 학생 테이블
+CREATE TABLE student (
+  id INT PRIMARY KEY,
+  name VARCHAR(50)
+);
+
+INSERT INTO student (id, name) VALUES
+(1, '철수'),
+(2, '영희'),
+(3, '민수');
+
+-- 수강 테이블
+CREATE TABLE enroll (
+  id INT PRIMARY KEY,
+  student_id INT,
+  class_name VARCHAR(50),
+  constraint STD_FK foreign key  (student_id) REFERENCES student(id)
+);
+
+INSERT INTO enroll (id, student_id, class_name) VALUES
+(1, 1, '데이터베이스'),
+(2, 1, '자바'),
+(3, 2, '데이터베이스');
+
+select * from student;
