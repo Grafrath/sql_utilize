@@ -1,7 +1,7 @@
 {
 	"folders": {},
 	"connections": {
-		"mysql8-19a763bc3ad-42b246d73a3ffce1": {
+		"mysql8-19a8f4e1500-893f1b5602c29dd": {
 			"provider": "mysql",
 			"driver": "mysql8",
 			"name": "localhost",
@@ -11,15 +11,9 @@
 				"port": "3306",
 				"url": "jdbc:mysql://localhost:3306/",
 				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 9.5",
 				"type": "dev",
 				"closeIdleConnection": true,
-				"properties": {
-					"connectTimeout": "20000",
-					"rewriteBatchedStatements": "true",
-					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
-					"allowPublicKeyRetrieval": "true",
-					"useSSL": "false"
-				},
 				"provider-properties": {
 					"@dbeaver-show-all-dbs@": "true"
 				},
