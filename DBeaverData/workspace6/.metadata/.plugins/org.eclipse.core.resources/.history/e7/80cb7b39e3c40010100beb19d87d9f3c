@@ -1,2 +1,0 @@
-select name, price from product
-order by price desc;

@@ -1,7 +1,7 @@
-dialog.default.folder=C\:\\Users\\admin\\Desktop\\SQL_utilize\\sql_utilize\\DBeaverData\\workspace6\\General\\Scripts
+dialog.default.folder=C\:\\Users\\admin\\Desktop\\SQL_utilize\\sql_utilize
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 org.jkiss.dbeaver.core.confirm.drop_sql=always
 sample.database.canceled=true
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1763429502025
+ui.auto.update.check.time=1763512883421

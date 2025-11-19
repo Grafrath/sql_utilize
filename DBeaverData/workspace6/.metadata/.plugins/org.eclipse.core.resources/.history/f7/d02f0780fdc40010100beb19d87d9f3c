@@ -113,10 +113,3 @@ FROM(
 	from SALES
 	group by EMPLOYEE
 ) as T order by RANK_NO;
-
-CREATE PROCEDURE hello_proc()
-BEGIN
-    SELECT 'Hello DBeaver!' AS msg;
-END;
-
-CALL hello_proc();

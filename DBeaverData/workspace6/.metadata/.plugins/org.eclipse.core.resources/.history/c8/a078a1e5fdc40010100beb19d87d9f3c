@@ -114,9 +114,11 @@ FROM(
 	group by EMPLOYEE
 ) as T order by RANK_NO;
 
+DELIMITER //
+
 CREATE PROCEDURE hello_proc()
 BEGIN
-    SELECT 'Hello DBeaver!' AS msg;
-END;
+    SELECT 'Hello!';
+END //
 
-CALL hello_proc();
+DELIMITER ;

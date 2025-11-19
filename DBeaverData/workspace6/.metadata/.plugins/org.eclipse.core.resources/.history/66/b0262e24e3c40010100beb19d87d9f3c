@@ -1,4 +1,0 @@
-use employees;
-
-select name, price from product
-order by name;
