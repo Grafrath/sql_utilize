@@ -111,5 +111,6 @@ select
 FROM(
 	select EMPLOYEE, SUM(AMOUNT) as TOTAL_AMOUNT
 	from SALES
-	group by EMPLOYEE
-) as T order by RANK_NO;
+	group by EMPLOYE
+) as T
+order by RANK_NO;
