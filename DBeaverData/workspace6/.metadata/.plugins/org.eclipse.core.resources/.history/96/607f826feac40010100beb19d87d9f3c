@@ -1,0 +1,47 @@
+create table product (
+	id int primary key,
+	name varchar(50),
+	category varchar(50),
+	price int,
+	stock int
+);
+
+INSERT INTO employees.product (id,name,category,price,stock) values
+	 (1,'노트북','전자제품',1200000,5),
+	 (2,'키보드','전자제품',45000,20),
+	 (3,'마우스','전자제품',28000,50),
+	 (4,'의자','가구',98000,15),
+	 (5,'책상','가구',159000,7),
+	 (6,'텀블러','생활용품',12000,80),
+	 (7,'물병','생활용품',8000,120),
+	 (8,'청소기','전자제품',230000,10),
+	 (9,'커피머신','전자제품',350000,3),
+	 (10,'캠핑의자','레저',27000,40);
+
+
+select name, category, price from product
+order by category, price desc;
+
+select p.name, p.price, o.quantity, (p.price * o.quantity) as total_price from product p
+join order_list o on o.product_id = p.id;
+
+select * from employee; 
+
+drop table enroll;
+drop table student;
+
+CREATE TABLE student (
+  id      INT PRIMARY KEY,
+  name    VARCHAR(20),
+  class   INT,
+  age     INT,
+  score   INT,
+  reg_dt  DATE
+);
+
+INSERT INTO student (id, name, class, age, score, reg_dt) VALUES
+(1, '김철수', 1, 18, 85, '2025-01-01'),
+(2, '이영희', 2, 19, 90, '2025-01-03'),
+(3, '박민수', 1, 18, 75, '2025-01-02'),
+(4, '최지우', 2, 20, NULL, '2025-01-04'),
+(5, '정현우', 1, 21, 95, '2025-01-05');
