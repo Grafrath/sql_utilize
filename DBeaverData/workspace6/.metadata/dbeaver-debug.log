@@ -1,21 +1,21 @@
-2025-11-18 10:35:05.067 - DBeaver 25.2.4.202511021717 is starting
-2025-11-18 10:35:05.068 - OS: Windows 10 10.0 (amd64)
-2025-11-18 10:35:05.068 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
-2025-11-18 10:35:05.068 - Install path: 'C:\Users\admin\AppData\Local\DBeaver'
-2025-11-18 10:35:05.068 - Instance path: 'file:/C:/Users/admin/Desktop/SQL_utilize/sql_utilize/DBeaverData/workspace6/'
-2025-11-18 10:35:05.069 - Memory available 64Mb/1024Mb
-2025-11-18 10:35:05.076 - Create display
-2025-11-18 10:35:05.143 - Initialize desktop platform...
-2025-11-18 10:35:05.239 - BounceCastle bundle found. Use JCE provider BC
+2025-11-19 09:41:19.541 - DBeaver 25.2.4.202511021717 is starting
+2025-11-19 09:41:19.542 - OS: Windows 10 10.0 (amd64)
+2025-11-19 09:41:19.542 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2025-11-19 09:41:19.542 - Install path: 'C:\Users\admin\AppData\Local\DBeaver'
+2025-11-19 09:41:19.542 - Instance path: 'file:/C:/Users/admin/Desktop/SQL_utilize/sql_utilize/DBeaverData/workspace6/'
+2025-11-19 09:41:19.544 - Memory available 64Mb/1024Mb
+2025-11-19 09:41:19.551 - Create display
+2025-11-19 09:41:19.640 - Initialize desktop platform...
+2025-11-19 09:41:19.752 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.300.v20250607-0645]
 > Start Core Resource Management [org.eclipse.core.resources 3.23.0.v20250729-1759]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.800.v20250610-0708]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.166.202511021717]
-2025-11-18 10:35:05.368 - Initialize base platform...
-2025-11-18 10:35:05.376 - send collected statistics
-2025-11-18 10:35:05.384 - Platform initialized (241ms)
-2025-11-18 10:35:05.468 - Starting instance server at http://localhost:57514
-2025-11-18 10:35:05.472 - Run workbench
+2025-11-19 09:41:19.918 - Initialize base platform...
+2025-11-19 09:41:19.927 - send collected statistics
+2025-11-19 09:41:19.938 - Platform initialized (298ms)
+2025-11-19 09:41:20.049 - Starting instance server at http://localhost:49822
+2025-11-19 09:41:20.049 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.900.v20250612-1000]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
@@ -32,13 +32,13 @@ Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
 > Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.9.202511021717]
 > Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.68.202511021717]
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.600.v20250409-1135]
-2025-11-18 10:35:06.549 - Configure workbench window
+2025-11-19 09:41:21.468 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.156.202511021717]
-2025-11-18 10:35:06.671 - Total database drivers: 128 (128)
+2025-11-19 09:41:21.611 - Total database drivers: 128 (128)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.600.v20250613-0437]
-2025-11-18 10:35:06.712 - Create actions
-2025-11-18 10:35:07.073 - Initialize workbench window
-2025-11-18 10:35:07.085 - Finish initialization
+2025-11-19 09:41:21.653 - Create actions
+2025-11-19 09:41:22.081 - Initialize workbench window
+2025-11-19 09:41:22.092 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.100.v20250814-1056]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.300.v20250815-0722]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.166.202511021717]
@@ -47,22 +47,12 @@ Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
 > Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.166.202511021717]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.203.202511021717]
+2025-11-19 09:41:23.425 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.163.202511021717]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.100.202508011427]
 > Start GEF Classic GEF (MVC) [org.eclipse.gef 3.23.0.202507261623]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.7.202511021717]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.7.202511021717]
-> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.59.202511021717]
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.251.202511021717]
-> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.150.202511021717]
-> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.158.202511021717]
-2025-11-18 10:36:14.958 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
-2025-11-18 10:36:14.973 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2025-11-18 10:36:51.215 - Connect with 'localhost' (mysql8-19a8f4e1500-893f1b5602c29dd)
-2025-11-18 10:36:51.247 - Execution context opened (localhost; Main; 0)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.190.202511021717]
-2025-11-18 10:36:51.346 - Execution context opened (localhost; Metadata; 1)
-2025-11-18 10:36:51.393 - Connected (mysql8-19a8f4e1500-893f1b5602c29dd, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
 Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
 Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
 Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
@@ -89,101 +79,198 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 > Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.800.v20250718-1505]
 > Start 콘솔 [org.eclipse.ui.console 3.14.400.v20250607-0653]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.23.100.v20250811-0711]
-2025-11-18 10:37:16.701 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 2)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.59.202511021717]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.251.202511021717]
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.144.202511021717]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.158.202511021717]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.144.202511021717]
+2025-11-19 09:47:38.368 - Connect with 'localhost' (mysql8-19a8f4e1500-893f1b5602c29dd)
+2025-11-19 09:47:38.388 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.190.202511021717]
+2025-11-19 09:47:38.552 - Execution context opened (localhost; Metadata; 1)
+2025-11-19 09:47:38.626 - Connected (mysql8-19a8f4e1500-893f1b5602c29dd, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2025-11-19 09:47:38.668 - Execution context opened (localhost; SQLEditor <Script-5.sql>; 2)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.61.202511021717]
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.150.202511021717]
-2025-11-18 12:58:37.565 - Table 'academy_db.color' not found in metadata catalog
-2025-11-18 12:58:37.566 - Table 'academy_db.size' not found in metadata catalog
-2025-11-18 13:09:12.191 - Error while analyzing query text: INSERT INTO days values
-	(1,'월'),
-	(2,'화'),
-	(3,''),
-	(4,'월'),
-	(5,'월'),
-	(6,'월'),
-	(7,'월')
-java.lang.IllegalStateException: Rows data was not resolved yet
-	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.getRowsDataContext(SQLQueryRowsSourceModel.java:52)
-	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryInsertModel.resolveValueRelations(SQLQueryInsertModel.java:114)
-	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.resolveRelations(SQLQueryModel.java:73)
-	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:154)
-	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:1026)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:605)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:85)
+2025-11-19 10:08:28.734 - Table 'employees.product' not found in metadata catalog
+2025-11-19 10:08:28.734 - Table 'employees.product' not found in metadata catalog
+2025-11-19 10:08:28.734 - Table 'employees.product' not found in metadata catalog
+2025-11-19 11:52:41.911 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:52:41.911 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:52:41.911 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:52:41.911 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:56:23.691 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:56:23.691 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:57:24.702 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:58:36.244 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:58:40.841 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 11:59:39.168 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 12:05:47.715 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 12:08:34.071 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 12:08:42.978 - Table 'academy_db.sales' not found in metadata catalog
+2025-11-19 12:51:56.222 - Application goes into sleep mode
+2025-11-19 12:57:44.755 - Application wakes
+2025-11-19 13:00:42.678 - Event loop exception
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4946)
+	at org.eclipse.swt.SWT.error(SWT.java:4861)
+	at org.eclipse.swt.SWT.error(SWT.java:4832)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:507)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:426)
+	at org.eclipse.swt.widgets.Text.getText(Text.java:1409)
+	at org.jkiss.dbeaver.ui.controls.CustomFormEditor.setEditorValue(CustomFormEditor.java:493)
+	at org.jkiss.dbeaver.ui.controls.CustomFormEditor.loadEditorValues(CustomFormEditor.java:451)
+	at org.jkiss.dbeaver.ui.controls.CustomFormEditor.updateOtherPropertyValues(CustomFormEditor.java:109)
+	at org.jkiss.dbeaver.ui.editors.entity.properties.TabbedFolderPageForm$2.lambda$0(TabbedFolderPageForm.java:129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4135)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3751)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:308)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:905)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:658)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1674)
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.313 - Table 'routines' not found in metadata catalog
+2025-11-19 13:10:55.314 - Table 'character_sets' not found in metadata catalog
+2025-11-19 13:10:55.314 - Table 'collations' not found in metadata catalog
+2025-11-19 13:10:55.314 - Table 'collations' not found in metadata catalog
+2025-11-19 13:12:46.991 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.991 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.991 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.991 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.991 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.991 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.991 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.992 - Table 'routines' not found in metadata catalog
+2025-11-19 13:12:46.992 - Table 'character_sets' not found in metadata catalog
+2025-11-19 13:12:46.992 - Table 'collations' not found in metadata catalog
+2025-11-19 13:12:46.992 - Table 'collations' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'routines' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'character_sets' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'collations' not found in metadata catalog
+2025-11-19 13:14:54.510 - Table 'collations' not found in metadata catalog
+2025-11-19 13:15:11.115 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:244)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2025-11-18 13:13:32.544 - Table 'academy_db.days' not found in metadata catalog
-2025-11-18 13:13:32.544 - Table 'academy_db.days' not found in metadata catalog
-2025-11-18 13:14:49.011 - Table 'academy_db.days' not found in metadata catalog
-2025-11-18 13:14:49.012 - Table 'academy_db.days' not found in metadata catalog
-2025-11-18 13:14:58.041 - Table 'academy_db.time_slots' not found in metadata catalog
-2025-11-18 13:14:58.042 - Table 'academy_db.time_slots' not found in metadata catalog
-2025-11-18 13:16:35.738 - Table 'academy_db.days' not found in metadata catalog
-2025-11-18 13:16:35.738 - Table 'academy_db.time_slots' not found in metadata catalog
-2025-11-18 13:17:36.942 - Table 'academy_db.days' not found in metadata catalog
-2025-11-18 13:17:36.942 - Table 'academy_db.time_slots' not found in metadata catalog
-2025-11-18 13:50:47.386 - Application goes into sleep mode
-2025-11-18 14:09:46.839 - Application wakes
-2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
-2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
-2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
-2025-11-18 16:01:32.111 - Table 'employees.v_employee_public' not found in metadata catalog
-2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
-2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
-2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
-2025-11-18 16:10:49.647 - Table 'employees.v_employee_sal' not found in metadata catalog
-2025-11-18 16:41:50.570 - Table 'employees.v_emp_dept_current' not found in metadata catalog
-2025-11-18 16:41:50.570 - Table 'employees.v_emp_dept_current' not found in metadata catalog
-2025-11-18 16:41:50.570 - Table 'employees.v_emp_dept_current' not found in metadata catalog
-2025-11-18 16:41:50.571 - Table 'employees.v_emp_dept_current' not found in metadata catalog
-2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
-2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
-2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
-2025-11-18 16:46:46.689 - Table 'employees.v_dept_manager_current' not found in metadata catalog
-2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
-2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
-2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
-2025-11-18 16:53:50.853 - Table 'employees.v_emp_salary_current' not found in metadata catalog
-2025-11-18 17:05:17.787 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:17.787 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:17.787 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:30.014 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:46.477 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:46.478 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:46.478 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:05:46.478 - Table 'employees.v_emp_dept_salary' not found in metadata catalog
-2025-11-18 17:06:20.132 - 'employees.v_dept_manager_current' is not BASE TABLE
-java.sql.SQLException: 'employees.v_dept_manager_current' is not BASE TABLE
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
 	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.executePersistAction(DBExecUtils.java:358)
-	at org.jkiss.dbeaver.model.impl.edit.AbstractObjectManager.executePersistAction(AbstractObjectManager.java:40)
-	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.executeCommands(AbstractCommandContext.java:198)
-	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.saveChanges(AbstractCommandContext.java:125)
-	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.lambda$1(EntityEditor.java:394)
+	... 8 more
+2025-11-19 13:15:52.758 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
 	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
-	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.saveCommandContext(EntityEditor.java:392)
-	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor$SaveJob.run(EntityEditor.java:1182)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:244)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-2025-11-18 17:17:10.325 - Table 'employees.v_dept_emp_count' not found in metadata catalog
-2025-11-18 17:17:10.326 - Table 'employees.v_dept_emp_count' not found in metadata catalog
-2025-11-18 17:17:20.236 - Table 'employees.v_dept_emp_count' not found in metadata catalog
-2025-11-18 17:17:20.236 - Table 'employees.v_dept_emp_count' not found in metadata catalog
-2025-11-18 17:41:51.254 - Table 'employees.v_dept_emp_count' not found in metadata catalog
-2025-11-18 17:41:51.255 - Table 'employees.v_dept_emp_count' not found in metadata catalog
-2025-11-18 18:21:34.018 - Execution context closed (localhost, 2)
-2025-11-18 18:21:36.585 - Dispose navigator model
-2025-11-18 18:21:36.618 - DBeaver is stopping
-2025-11-18 18:21:36.620 - Stop instance server
-2025-11-18 18:21:37.624 - Instance server has been stopped
-2025-11-18 18:21:37.624 - DBeaver shutdown completed
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 8 more
+2025-11-19 13:15:55.097 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:244)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:132)
+	... 8 more
+2025-11-19 13:15:55.950 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1305] [42000]: PROCEDURE academy_db.hello_proc does not exist
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:204)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:244)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: PROCEDURE academy_db.hello_proc does not exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.execute(JDBCPreparedStatementImpl.java:257)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:201)
+	... 8 more
+2025-11-19 13:15:57.432 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1305] [42000]: PROCEDURE academy_db.hello_proc does not exist
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:204)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:675)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:568)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:449)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:244)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: PROCEDURE academy_db.hello_proc does not exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.execute(JDBCPreparedStatementImpl.java:257)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:201)
+	... 8 more
+2025-11-19 13:19:54.749 - Execution context closed (localhost, 2)
+2025-11-19 13:19:54.842 - Dispose navigator model
+2025-11-19 13:19:54.857 - DBeaver is stopping
+2025-11-19 13:19:54.858 - Stop instance server
+2025-11-19 13:19:55.862 - Instance server has been stopped
+2025-11-19 13:19:55.862 - DBeaver shutdown completed

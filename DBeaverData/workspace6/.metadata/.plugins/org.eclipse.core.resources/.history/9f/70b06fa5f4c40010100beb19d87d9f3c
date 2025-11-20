@@ -1,0 +1,103 @@
+create table product (
+	id int primary key,
+	name varchar(50),
+	category varchar(50),
+	price int,
+	stock int
+);
+
+INSERT INTO employees.product (id,name,category,price,stock) values
+	 (1,'노트북','전자제품',1200000,5),
+	 (2,'키보드','전자제품',45000,20),
+	 (3,'마우스','전자제품',28000,50),
+	 (4,'의자','가구',98000,15),
+	 (5,'책상','가구',159000,7),
+	 (6,'텀블러','생활용품',12000,80),
+	 (7,'물병','생활용품',8000,120),
+	 (8,'청소기','전자제품',230000,10),
+	 (9,'커피머신','전자제품',350000,3),
+	 (10,'캠핑의자','레저',27000,40);
+
+
+select name, category, price from product
+order by category, price desc;
+
+select p.name, p.price, o.quantity, (p.price * o.quantity) as total_price from product p
+join order_list o on o.product_id = p.id;
+
+select * from employee; 
+
+drop table enroll;
+drop table student;
+
+CREATE TABLE student (
+  id      INT PRIMARY KEY,
+  name    VARCHAR(20),
+  class   INT,
+  age     INT,
+  score   INT,
+  reg_dt  DATE
+);
+
+INSERT INTO student (id, name, class, age, score, reg_dt) VALUES
+(1, '김철수', 1, 18, 85, '2025-01-01'),
+(2, '이영희', 2, 19, 90, '2025-01-03'),
+(3, '박민수', 1, 18, 75, '2025-01-02'),
+(4, '최지우', 2, 20, NULL, '2025-01-04'),
+(5, '정현우', 1, 21, 95, '2025-01-05');
+
+select * from student order by age;
+
+select name, score from student order by score desc;
+
+select name, score from student where score is not null order by score desc limit 3;
+
+select * from student order by reg_dt desc;
+
+select name, coalesce(score, 0) as score from student order by score;
+
+drop table sales;
+
+CREATE TABLE sales (
+  id INT PRIMARY KEY,
+  employee VARCHAR(20),
+  amount INT,
+  sale_date DATE
+);
+
+INSERT INTO sales VALUES
+(1, '김철수', 300, '2025-01-01'),
+(2, '김철수', 200, '2025-01-02'),
+(3, '김철수', 500, '2025-01-03'),
+(4, '이영희', 100, '2025-01-01'),
+(5, '이영희', 400, '2025-01-02'),
+(6, '이영희', 300, '2025-01-03');
+
+INSERT INTO sales VALUES
+(7,  '정우성', 220, '2025-01-01'),
+(8,  '정우성', 330, '2025-01-02'),
+(9,  '정우성', 410, '2025-01-03'),
+(10, '정우성', 280, '2025-01-04');
+
+INSERT INTO sales VALUES
+(11, '한지민', 500, '2025-01-01'),
+(12, '한지민', 450, '2025-01-02'),
+(13, '한지민', 520, '2025-01-03'),
+(14, '한지민', 610, '2025-01-04');
+
+INSERT INTO sales VALUES
+(15, '이준호', 150, '2025-01-01'),
+(16, '이준호', 200, '2025-01-02'),
+(17, '이준호', 350, '2025-01-03'),
+(18, '이준호', 400, '2025-01-04');
+
+select * from sales;
+
+select employee, sum(amount) as total_amo from sales
+group by employee order by employee;
+
+select employee, sum(amount) as total_amo from sales
+group by employee order by total_amo;
+
+select employee, sum(amount) as total_amo from sales
+group by employee order by total_amo desc;
