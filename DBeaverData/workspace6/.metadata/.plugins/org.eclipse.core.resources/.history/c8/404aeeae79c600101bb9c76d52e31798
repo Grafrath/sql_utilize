@@ -1,0 +1,2 @@
+INSERT INTO product VALUES
+(6, '타블렛', 200000);
